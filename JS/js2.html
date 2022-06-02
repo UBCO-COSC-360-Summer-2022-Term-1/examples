@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <style>
+  figure {
+    float: left;
+    position: relative;
+    top: 150px;
+    left: 150px;
+  }
+  </style>
+</head>
+<html>
+<body>
+
+<h1>The Power!</h1>
+
+<p>JavaScript can change HTML attributes.</p>
+
+<p>Click the button to change the image</p>
+
+<button onclick="document.getElementById('myImage').src='https://images.pexels.com/photos/287229/pexels-photo-287229.jpeg?h=350&auto=compress&cs=tinysrgb'">Show Image One</button>
+<figure>
+<img id="myImage" src="https://images.pexels.com/photos/287229/pexels-photo-287229.jpeg?h=350&auto=compress&cs=tinysrgb" style="width:200px">
+</figure>
+<p>this is some text</p>
+<button onclick="document.getElementById('myImage').src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Lil_Bub_2013_%28crop_for_thumb%29.jpg/1200px-Lil_Bub_2013_%28crop_for_thumb%29.jpg'">Show Image Two</button>
+
+</body>
+</html>
